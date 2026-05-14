@@ -1,0 +1,22 @@
+{
+  "_comment": "URL substrings that match disposable tabs (auth pages, redirects, etc). Matched tabs are auto-closed by the organizer script.",
+  "patterns": [
+    "accounts.google.com/signin",
+    "accounts.google.com/o/oauth2",
+    "login.microsoftonline.com",
+    "okta.com/login",
+    "okta.com/sso",
+    "auth0.com/authorize",
+    "auth0.com/login",
+    "zoom.us/j/",
+    "zoom.us/postattendee",
+    "teams.microsoft.com/dl/launcher",
+    "docs.google.com/document/u/0",
+    "docs.google.com/document/copy",
+    "docs.google.com/presentation/copy",
+    "docs.google.com/drivesharing/driveshare",
+    "www.google.com/url?q=",
+    "safelinks.protection.outlook.com",
+    "t.co/"
+  ]
+}
