@@ -31,18 +31,26 @@ Claude writes the config. The script reads the config. Claude can't directly con
 
 ## Installation
 
+**Step 1: Add the marketplace and install the plugin**
+
 ```bash
-git clone https://github.com/satong/chrome-tab-organizer \
-  ~/.claude/plugins/chrome-tab-organizer
+claude plugin marketplace add https://github.com/satong/chrome-tab-organizer
+claude plugin install chrome-tab-organizer
 ```
 
-Then in Claude Code:
+**Step 2: Run setup in Claude Code**
 
 ```
 /tab-setup
 ```
 
 Claude will scan your tabs, propose clusters, and walk you through setup. At the end, it gives you a single command to run in Terminal to activate the automation.
+
+*Alternative (session-only, no install):*
+```bash
+git clone https://github.com/satong/chrome-tab-organizer /tmp/chrome-tab-organizer
+claude --plugin-dir /tmp/chrome-tab-organizer/plugins/chrome-tab-organizer
+```
 
 ## Commands
 

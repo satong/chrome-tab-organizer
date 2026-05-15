@@ -1,0 +1,19 @@
+{
+  "name": "chrome-tab-organizer",
+  "owner": {
+    "name": "Steph Tong",
+    "url": "https://github.com/satong"
+  },
+  "metadata": {
+    "description": "AI-powered Chrome tab clustering for knowledge workers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chrome-tab-organizer",
+      "version": "1.0.0",
+      "description": "Claude Code analyzes your Chrome tabs, creates project-based clusters, and sets up automatic organization 3x/day with searchable tab history.",
+      "source": "./plugins/chrome-tab-organizer"
+    }
+  ]
+}
