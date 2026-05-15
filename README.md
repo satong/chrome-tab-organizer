@@ -32,7 +32,7 @@ Claude writes the config. The script reads the config. Claude can't directly con
 ## Installation
 
 ```bash
-git clone https://github.com/stephtong/chrome-tab-organizer \
+git clone https://github.com/satong/chrome-tab-organizer \
   ~/.claude/plugins/chrome-tab-organizer
 ```
 
