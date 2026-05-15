@@ -2,7 +2,9 @@
   "name": "chrome-tab-organizer",
   "version": "1.0.0",
   "description": "AI-powered Chrome tab clustering for knowledge workers. Claude analyzes your tabs to create project-based clusters; a scheduled script keeps them organized automatically.",
-  "author": "Steph Tong",
-  "homepage": "https://github.com/stephtong/chrome-tab-organizer",
-  "os": ["darwin"]
+  "author": {
+    "name": "Steph Tong"
+  },
+  "homepage": "https://github.com/satong/chrome-tab-organizer",
+  "keywords": ["chrome", "tabs", "productivity", "macos"]
 }
